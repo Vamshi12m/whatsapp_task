@@ -1,0 +1,184 @@
+ 
+        .main-container{
+            height: 530px;
+            width: 300px;
+            border: 2px solid;
+            border-radius: 15px;
+            /* background-color: #111b21; */
+            overflow: scroll;
+            position: relative;
+            scrollbar-width: none;
+            
+        }
+       
+        .profile{
+            width: 45px;
+            border-radius: 50%;
+            color: white;
+        }
+        .link{
+            color: white;
+            text-decoration: none;
+            margin: 6px;
+            
+        }
+        .header{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            background-color: #111b21;
+            height: 55px;
+            position: relative;
+        }
+        .nav-left{
+            padding: 8px;
+            display: flex;
+            
+        }
+        .nav-right{
+            /* padding: 10px; */
+            padding-top: 20px;
+        }
+        .elem{
+            color: white;
+            display: inline-block;
+        }
+        .content{
+            background-color: white;
+            height: 430px;
+            overflow: scroll;
+            scrollbar-width: none;
+            position: relative;
+
+        }
+        .elem-3{
+            /* margin-top: 10px; */
+            color: white;
+            padding: 10px;
+            font-weight: 600;
+            
+        }
+        .elem-1{
+            /* margin-top: 10px; */
+            color: white;
+            padding: 10px;
+            
+        }
+        .sticky{
+            background-color: #4a4d4f;
+            border-radius: 8px;
+            padding: 3px;
+            color: white;
+            
+        
+
+        }
+        .sticky-1{
+            position: sticky;
+            top: 10px;
+        }
+        .footer{
+            background-color: white#111b21;
+            width: 303px;
+            height: 55px;
+            border-bottom-left-radius: 10px;
+            border-bottom-right-radius: 10px;
+            position: relative;
+            bottom: 150px;
+            
+        }
+        input{
+            width: 235px;
+            padding: 8px;
+            border-radius: 15px;
+            background-color: #111b21;
+            position: absolute;
+            top: 107px;
+            margin-left: 5px;
+            /* margin-top: 15px; */
+
+        }
+        .mic{
+            position: absolute;
+            background-color: rgb(25, 219, 25);
+            border-radius: 52%;
+            padding: 10px;
+            margin-left: 5px;
+            top: 107px;
+            right: 10px;
+        }
+        .attach{
+            position: absolute;
+            top: 115px;
+            right: 145px;
+            bottom: 15px;
+            font-size: larger;
+            color: white;
+        }
+        .rupee{
+            position: absolute;
+            top: 115px;
+            right: 110px;
+            bottom: 15px;
+            font-size: larger;
+            color: white;
+        }
+        .cam{
+            position: absolute;
+            top: 115px;
+            right: 70px;
+            bottom: 15px;
+            font-size: larger;
+            color: white;
+        }
+        /* .rlp{
+            background-color: #111b21;
+            color: white;
+            width: 40px;
+            padding: 5px;
+            margin-left: 4px;
+            border-radius: 12px;
+            border-top-left-radius: 0px;
+        }
+        .rlp2{
+            background-color: green;
+            color: white;
+            width: 40px;
+            padding: 5px;
+            margin-right: 4px;
+            border-radius: 12px;
+            border-top-right-radius: 0px;
+            position: absolute;
+            right: 0px;
+        
+        } */
+         .uday{
+            display: flex;
+            justify-content: start;
+            margin-left: 5px;
+
+         }
+         .vamshi{
+            display: flex;
+            justify-content: end;
+            margin-right: 5px;
+
+         }
+         .para1{
+            background-color: #111b21;
+            padding: 5px;
+            color: white;
+            width: 48px;
+            border-radius: 12px;
+            border-top-left-radius: 0px;
+            padding-left: 10px;
+         }
+         .para2{
+            background-color: green;
+            padding: 5px;
+            color: white;
+            width: 48px;
+            border-radius: 12px;
+            border-top-right-radius: 0px;
+            padding-left: 10px;
+         }
